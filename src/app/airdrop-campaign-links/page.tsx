@@ -11,7 +11,7 @@ export default function AirdropCampaignLinksPage() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-14">
       <div className="mb-10">
-        <Link href="/" className="text-sm text-zinc-600 hover:underline">
+        <Link href="/early-access" className="text-sm text-zinc-600 hover:underline">
           ← Back
         </Link>
       </div>
@@ -33,7 +33,7 @@ export default function AirdropCampaignLinksPage() {
             Create verified airdrop link
           </a>
           <a
-            href="#features"
+            href="/early-access"
             className="inline-flex h-11 items-center justify-center rounded-full border border-zinc-200 px-6 hover:bg-zinc-50"
           >
             See how it works
